@@ -1,16 +1,17 @@
-# hugom
+Oversight of the Project Implemented so far..
 
-A new Flutter project.
+Support :
 
-## Getting Started
+1.Local db crud operations(group management) operational
+2. DB Crud operations operational for the application in another device via SMS.
+3.SMS sending and receiving operational
+4.Succesful displaying of a gcc tile (Offline Maps).
+5. GUIDE completed
+6. Admin and Member Authentication operational. 
 
-This project is a starting point for a Flutter application.
+Limitations :
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Although offline map is displayed but there's no way for adding layers, live location, geofences and other animations in a tile that is independent of an Internet connection. 
+2. Here we are assuming that the index/ id(AI and primary key in Groups table)  is the same. If it isn't the same then contacts can be added in different groups making a mess.
+3. There's an exception in recieving sms in the admin side(can be handled and fixed) Where as sms recieving in Member side is ok.
+4. Add a folder named tiles and in it, put all the relevant tiles for using maps of specific areas
