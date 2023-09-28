@@ -27,4 +27,3 @@ Limitations :
 1. Although offline map is displayed but there's no way for adding layers, live location, geofences and other animations in a tile that is independent of an Internet connection. 
 2. Here we are assuming that the index/ id(AI and primary key in Groups table)  is the same. If it isn't the same then contacts can be added in different groups making a mess.
 
-Note : 
